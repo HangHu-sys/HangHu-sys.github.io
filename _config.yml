@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Hang Hu"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Hang Hu"
 description              : &description "personal description"
 url                      : https://hanghu-sys.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile_pic.png"
   name             : "Hang Hu"
   pronouns         : # example: "she/her"  
-  bio              : "Master student in Computer Science at ETH Zurich"
+  bio              : "Master student, ETH Zurich"
   location         : "Zurich, Switzerland"
   # employer         : "Red Brick University"
   uri              : # URL
