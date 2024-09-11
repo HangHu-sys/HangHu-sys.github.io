@@ -1,11 +1,9 @@
 ---
-title: ""
+title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
 
-## Email
-
-Welcome to contact me through:
+ETH Zurich
 
 hanghu [at] student.ethz.ch
