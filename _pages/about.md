@@ -15,9 +15,10 @@ Before starting my Master's program, I received my Bachelor's degree in Computer
 
 I'm actively seeking a PhD position in systems and modern hardware. Feel free to take a look at my [CV](/files/CV_HangHu.pdf) :）
 
+
 Research Interests
 ======
-My research focuses on optimizing data management and processing systems through advances in parallel and distributed computing, memory architecture, and hardware accelerators. My work aims to develop tools that benefits programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
+My research focuses on optimizing data management and processing systems through advances in parallel and distributed computing, memory architecture, and hardware accelerators. My work aims to develop tools that benefit programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
 
 
 
