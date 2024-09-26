@@ -9,13 +9,17 @@ redirect_from:
 
 About me
 ======
-Hey! Thanks for visiting! I'm currently a Master's student at [ETH Zurich](https://ethz.ch/), focusing on Data Management System track, where I am fortunate to be advised by [Prof. Gustavo Alonso](https://people.inf.ethz.ch/alonso/). 
+Hey! Thanks for visiting! I'm currently a Master's student at **[ETH Zurich](https://ethz.ch/)**, focusing on Data Management System track, where I am fortunate to be advised by Dr. [Michal Friedman](https://sites.google.com/view/michalf) and Prof. [Gustavo Alonso](https://people.inf.ethz.ch/alonso/). 
 
-Before starting my Master's program, I received my Bachelor's degree from the Department of Computer Science, Huazhong University of Science and Technology in 2022 with honors.
+Before starting my Master's program, I received my Bachelor's degree in Computer Science from **[Huazhong University of Science and Technology](https://hust.edu.cn/)** in 2022 with honors.
 
-Research Interest
+I'm actively seeking a PhD position in systems and modern hardware. Feel free to take a look at my [CV](/files/CV_HangHu.pdf) :）
+
+Research Interests
 ======
-My research interests mainly focus on systems and computer architecture, including parallel and distributed computing, memory architecture and any other tools that help improve the efficiency of data management and processing. I’m also open to broader topics, such as heterogeneous systems and systems for machine learning.
+My research focuses on optimizing data management and processing systems through advances in parallel and distributed computing, memory architecture, and hardware accelerators. My work aims to develop tools that benefits programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
+
+
 
 Contact
 ======
