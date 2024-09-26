@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hang Hu"
+title                    : "Hang Hu 扈杭"
 title_separator          : "-"
 name                     : &name "Hang Hu"
 description              : &description "Master's Student, Dept. of Computer Science, ETH Zurich"
