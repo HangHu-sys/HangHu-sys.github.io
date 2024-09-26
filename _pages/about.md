@@ -16,7 +16,7 @@ I'm actively seeking a PhD position in systems and modern hardware, so feel free
 
 Research Interests
 ======
-My research focuses on optimizing data management and processing systems through advances in parallel and distributed computing, memory architecture, and hardware accelerators. My work aims to develop tools that benefit programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
+My research focuses on optimizing **data management and processing systems** through advances in **parallel and distributed computing**, **memory architecture**, and **hardware accelerators**. My work aims to develop tools that benefit programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
 
 
 
