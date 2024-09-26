@@ -9,9 +9,7 @@ redirect_from:
 
 About me
 ======
-Hey! Thanks for visiting! I'm currently a Master's student at **[ETH Zurich](https://ethz.ch/)**, focusing on Data Management System track, where I am fortunate to be advised by Dr. [Michal Friedman](https://sites.google.com/view/michalf) and Prof. [Gustavo Alonso](https://people.inf.ethz.ch/alonso/). 
-
-Before starting my Master's program, I received my Bachelor's degree in Computer Science from **Huazhong University of Science and Technology ([HUST](https://hust.edu.cn/))** in 2022 with honors.
+Thanks for visiting! I'm currently a Master's student at **[ETH Zurich](https://ethz.ch/)**, focusing on Data Management System track, where I am fortunate to be advised by Dr. [Michal Friedman](https://sites.google.com/view/michalf) and Prof. [Gustavo Alonso](https://people.inf.ethz.ch/alonso/). Before starting my Master's program, I received my Bachelor's degree in Computer Science from **Huazhong University of Science and Technology ([HUST](https://hust.edu.cn/))** in 2022 with honors.
 
 I'm actively seeking a PhD position in systems and modern hardware. Feel free to take a look at my [CV](/files/CV_HangHu.pdf) :）
 

@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hang Hu 扈杭"
+title                    : "Hang Hu"
 title_separator          : "-"
-name                     : &name "Hang Hu"
+name                     : &name "Hang Hu 扈杭"
 description              : &description "Master's Student, Dept. of Computer Science, ETH Zurich"
 url                      : https://hanghu-sys.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
