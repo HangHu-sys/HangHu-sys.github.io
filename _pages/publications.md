@@ -16,11 +16,9 @@ author_profile: true
   Fast Graph Vector Search via Hardware Acceleration and Delayed-Synchronization Traversal
 </span>
 <a href="https://arxiv.org/abs/2406.12385" style="color:#1a73e8;">[Paper]</a>
-<a href="https://github.com/yourrepo" style="color:#1a73e8;">[Code]</a><br>
-
+<a href="https://github.com/fpgasystems/Falcon-accelerate-graph-vector-search" style="color:#1a73e8;">[Code]</a><br>
 <!-- Authors -->
 <span style="color:black; font-weight:bold;">Wenqi Jiang</span>,
 <span style="color:grey">Hang Hu, Torsten Hoefler, and Gustavo Alonso</span><br>
-
 <!-- Venue -->
 <span style="color:grey">Proceedings of the VLDB Endowment</span>
