@@ -21,4 +21,4 @@ Currently, I am working on the crash-consistency management of cache-coherent da
 
 Contact
 ======
-hang.hu[at]inf.ethz.ch
+hang.hu [at] inf.ethz.ch
