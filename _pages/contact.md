@@ -1,11 +1,6 @@
 ---
 title: "Contact"
 permalink: /contact/
-author_profile: true
+redirect_to: /#contact
+sitemap: false
 ---
-
-## Email
-
-ETH Zurich
-
-hanghu [at] student.ethz.ch

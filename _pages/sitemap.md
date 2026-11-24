@@ -7,31 +7,30 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A list of the pages on this site. An [XML sitemap]({{ base_path }}/sitemap.xml) is also available.
 
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
+<ul>
+  {% for entry in site.pages %}
+    {% unless entry.sitemap == false or entry.redirect_to or entry.url == page.url %}
+      {% if entry.url == '/' %}
+  <li><a href="{{ base_path }}{{ entry.url }}">Home</a></li>
+      {% elsif entry.title and entry.title != '' %}
+  <li><a href="{{ base_path }}{{ entry.url }}">{{ entry.title }}</a></li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+  <li><a href="{{ base_path }}/files/CV_HangHu.pdf">CV (PDF)</a></li>
+</ul>
 
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
+  {% assign entries = collection.docs | where_exp: 'entry', 'entry.published != false' | sort: 'date' | reverse %}
+  {% if collection.output and entries.size > 0 %}
+<h2>{{ collection.label | capitalize }}</h2>
+<ul>
+    {% for entry in entries %}
+  <li><a href="{{ base_path }}{{ entry.url }}">{{ entry.title }}</a></li>
+    {% endfor %}
+</ul>
   {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
 {% endfor %}

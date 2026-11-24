@@ -1,0 +1,58 @@
+/* Underlines enter from the left and leave toward the right. */
+.page__content a:not(.btn):not(.page__taxonomy-item),
+.archive a:not(.btn),
+.author__urls a,
+.page__footer a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 0 1px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 220ms ease;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: none;
+    background-position: 0 100%;
+    background-size: 100% 1px;
+  }
+}
+
+/* Keep sidebar lines as wide as their labels, including the icon. */
+.author__urls a {
+  width: fit-content;
+  max-width: 100%;
+}
+
+/* The archive wrapper must not underline the whole heading on hover. */
+.archive__item:hover .archive__item-title {
+  text-decoration: none;
+}
+
+/* Match the navigation's existing underline to the content links. */
+.greedy-nav .visible-links a {
+  &::before {
+    height: 1px;
+    background: currentColor;
+    transform-origin: right;
+    transition: transform 220ms ease;
+  }
+
+  &:hover::before,
+  &:focus-visible::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__content a:not(.btn):not(.page__taxonomy-item),
+  .archive a:not(.btn),
+  .author__urls a,
+  .page__footer a,
+  .greedy-nav .visible-links a::before {
+    transition: none;
+  }
+}

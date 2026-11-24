@@ -1,27 +1,19 @@
 ---
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<!-- ## Under Submission -->
+{% include base_path %}
 
-<span style="color:#008000; font-weight:bold;">[VLDB’25]</span>
-<span style="color:black">Accelerating Graph-based Vector Search via Delayed-Synchronization Traversal</span>
-<a href="https://arxiv.org/abs/2406.12385" style="color:#1a73e8;">[Paper]</a>
-<a href="https://github.com/fpgasystems/Falcon-accelerate-graph-vector-search" style="color:#1a73e8;">[Code]</a><br>
-<span style="color:grey">Wenqi Jiang, <span style="color:rgb(50,50,50)"><b>Hang Hu</b></span>, Torsten Hoefler, and Gustavo Alonso</span><br>
-<span style="color:grey">Proceedings of the VLDB Endowment</span>
-
-
-<!-- Title and venue
-<span style="color:#008000; font-weight:bold;">[VLDB’25]</span>
-<span style="color:black">
-  Fast Graph Vector Search via Hardware Acceleration and Delayed-Synchronization Traversal
-</span>
-<a href="https://arxiv.org/abs/2406.12385" style="color:#1a73e8;">[Paper]</a>
-<a href="https://github.com/fpgasystems/Falcon-accelerate-graph-vector-search" style="color:#1a73e8;">[Code]</a><br>
-<!-- Authors -->
-<!-- <span style="color:black; font-weight:bold;">Wenqi Jiang</span>,
-<span style="color:grey">Hang Hu, Torsten Hoefler, and Gustavo Alonso</span><br>
-<!-- Venue -->
-<!-- <span style="color:grey">Proceedings of the VLDB Endowment</span> -->
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% for post in publications %}
+<article class="archive__item">
+  <h2 class="archive__item-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="archive__item-excerpt">
+    {{ post.authors | markdownify }}
+    <p><em>{{ post.venue }}</em>, {{ post.volume }}({{ post.issue }}): {{ post.pages }}, {{ post.date | date: '%Y' }}.</p>
+    <p><a href="{{ post.paperurl }}">Paper</a> &middot; <a href="{{ post.codeurl }}">Code</a> &middot; <a href="{{ post.doiurl }}">DOI</a></p>
+  </div>
+</article>
+{% endfor %}

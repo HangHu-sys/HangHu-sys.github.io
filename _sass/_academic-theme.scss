@@ -1,0 +1,168 @@
+/* Warm paper, serif headings, and a quiet reading rhythm. */
+html {
+  @include breakpoint($medium) {
+    font-size: 17px;
+  }
+}
+
+body {
+  background: $background-color;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+.page__title,
+.page__content h1 {
+  font-size: 1.765rem;
+  line-height: 1.2;
+}
+
+.page__title:empty {
+  display: none;
+}
+
+.page__content h1 {
+  margin: 2rem 0 0.85rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.page__content p {
+  margin-bottom: 1.15rem;
+}
+
+.page__content,
+.archive__item {
+  max-width: 70ch;
+}
+
+.archive__item-title {
+  margin-top: 1.8rem;
+  margin-bottom: 0.45rem;
+  font-family: $sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+}
+
+.archive__item-excerpt {
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+.masthead__inner-wrap,
+#main,
+.page__footer footer {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.masthead {
+  background: $background-color;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  height: $masthead-height;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.masthead__menu {
+  width: 100%;
+}
+
+.greedy-nav a {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.greedy-nav .visible-links > li:first-child > a {
+  font-family: $serif;
+  font-size: 1.47rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.sidebar .author__name {
+  font-family: $serif;
+  font-size: 1.53rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.sidebar p,
+.sidebar li {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.author__avatar {
+  width: 72px;
+
+  img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border: 0;
+    padding: 0;
+  }
+}
+
+@include breakpoint($large) {
+  .sidebar {
+    position: sticky;
+    top: calc(#{$masthead-height} + 2rem);
+    height: auto;
+    max-height: calc(100vh - #{$masthead-height} - 4rem);
+    overflow-y: auto;
+    padding-top: 0;
+  }
+
+  .author__avatar {
+    width: auto;
+    margin-bottom: 1rem;
+
+    img {
+      width: 112px;
+      height: 112px;
+    }
+  }
+}
+
+/* Keep the mobile menus and their pointer triangles on the same paper. */
+.author__urls,
+.greedy-nav .hidden-links {
+  background: $background-color;
+
+  &::after {
+    border-bottom-color: $background-color;
+  }
+}
+
+.page__footer {
+  color: $gray;
+  background: #f0eee6;
+  border-top-color: $border-color;
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: inherit;
+}

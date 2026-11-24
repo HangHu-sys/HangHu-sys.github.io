@@ -24,15 +24,17 @@ author:
   avatar           : "profile_picture.png"
   name             : "Hang Hu"
   pronouns         : # example: "she/her"  
-  bio              : "Doctoral Student, Systems Group, ETH Zürich"
-  location         : "Zürich, Switzerland"
+  bio              : "Doctoral Student, Systems Group, ETH Zurich"
+  location         : "Zurich, Switzerland"
+  group_name       : "CORES"
+  group_url        : "https://cores.inf.ethz.ch/"
   # employer         : "Red Brick University"
   uri              : # URL
-  email            : 
+  email            : "hang.hu@inf.ethz.ch"
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=4jaM4w0AAAAJ&hl=zh-CN&oi=sra"
+  googlescholar    : "https://scholar.google.com/citations?user=4jaM4w0AAAAJ&hl=en"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
@@ -169,6 +171,8 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - cv
+  - "files/CV_HangHu_NVIDIA.*"
   - Gemfile
   - Gruntfile.js
   - gulpfile.js

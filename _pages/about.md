@@ -9,16 +9,19 @@ redirect_from:
 
 About me
 ======
-Thanks for visiting! I am a first-year doctoral student in the [Systems Group @ ETH Zürich](https://systems.ethz.ch), advised by Prof. Dr. [Michal Friedman](https://sites.google.com/view/michalf). Before that, I received my Master's degree at [ETH Zürich](https://ethz.ch/), focusing on Data Management System track, where I am fortunate to be advised by Prof. Dr. [Michal Friedman](https://sites.google.com/view/michalf) and Prof. Dr. [Gustavo Alonso](https://people.inf.ethz.ch/alonso/). I earned my Bachelor's degree in Computer Science from Huazhong University of Science and Technology ([HUST](https://hust.edu.cn/)) in 2022 with honors.
+Thanks for visiting! I am a doctoral student in the [CORES group](https://cores.inf.ethz.ch/) within the [Systems Group @ ETH Zurich](https://systems.ethz.ch), advised by Prof. Dr. [Michal Friedman](https://sites.google.com/view/michalf) and Prof. Dr. [Gustavo Alonso](https://people.inf.ethz.ch/alonso/). Before that, I received my Master's degree in Computer Science at [ETH Zurich](https://ethz.ch/), focusing on the Data Management Systems track, where I was fortunate to work with my current advisors. I earned my Bachelor's degree in Computer Science from [Huazhong University of Science and Technology (HUST)](https://hust.edu.cn/) in 2022 with honors.
 
 
 Research Interests
 ======
-My research focuses on optimizing **data management and processing systems** through advances in **parallel and distributed computing**, **memory architecture**, and **hardware accelerators**. I aim to develop tools that benefit programming and improve both performance and energy efficiency in heterogeneous architectures. I'm also open to broader topics such as systems for machine learning.
+My research focuses on optimizing **data management and processing systems** through advances in **parallel and distributed computing**, **memory architecture**, **networking**, and **hardware acceleration**. I aim to develop tools that simplify programming and improve performance in heterogeneous and disaggregated systems. I'm also open to broader topics such as systems for machine learning.
 
-Currently, I am working on the crash-consistency management of cache-coherent data structures on the heterogeneous architecture.
+Currently, I am working on memory-side synchronization primitives that coordinate local and remote access to shared data.
 
 
 Contact
 ======
-hang.hu [at] inf.ethz.ch
+{{ site.author.email | replace: '@', '[at]' }}
+
+Office: [STF G 222](https://systems.ethz.ch/utils/location.html?building=STF&floor=G&room=222)<br>
+Stampfenbachstrasse 114, 8092 Zurich, Switzerland
